@@ -1,4 +1,4 @@
-# DigitForge
+# Digit Vision
 
 A full-stack handwritten digit recognition application powered by a neural network.
 
