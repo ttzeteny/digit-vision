@@ -1,0 +1,9 @@
+{
+    "model_type": "CNNModel",
+    "conv1_channels": 16,
+    "conv2_channels": 128,
+    "dropout": 0.4839886412213569,
+    "num_classes": 10,
+    "input_channels": 1,
+    "input_size": 28
+}
