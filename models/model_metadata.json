@@ -1,0 +1,13 @@
+{
+    "model": "CNN",
+    "dataset": "MNIST",
+    "test_accuracy": 0.9907,
+    "training_samples": 60000,
+    "test_samples": 10000,
+    "epochs": 8,
+    "batch_size": 64,
+    "learning_rate": 0.002576059342604795,
+    "conv1_channels": 16,
+    "conv2_channels": 128,
+    "dropout": 0.4839886412213569
+}

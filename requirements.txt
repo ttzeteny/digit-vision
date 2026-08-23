@@ -5,3 +5,4 @@ pandas==3.0.5
 seaborn==0.13.2
 torch==2.13.0
 torchvision==0.28.0
+optuna==4.9.0
