@@ -39,6 +39,10 @@ async def predict(file: UploadFile = File(...)):
 
     try:
         input_tensor = preprocess_image(image_bytes)
+        print("Tensor shape:", input_tensor.shape)
+        print("Minimum:", input_tensor.min().item())
+        print("Maximum:", input_tensor.max().item())
+        print("Mean:", input_tensor.mean().item())
     except UnidentifiedImageError:
         raise HTTPException(
             status_code=400,

@@ -8,6 +8,7 @@ transform = transforms.Compose([
     transforms.Grayscale(num_output_channels=1),
     transforms.Resize((28, 28)),
     transforms.ToTensor(),
+    transforms.Lambda(lambda x: 1.0 - x)
 ])
 
 def preprocess_image(image_bytes: bytes) -> torch.Tensor:
