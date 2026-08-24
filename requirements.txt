@@ -6,3 +6,7 @@ seaborn==0.13.2
 torch==2.13.0
 torchvision==0.28.0
 optuna==4.9.0
+fastapi==0.141.1
+pillow==12.3.0
+python-multipart==0.0.32
+uvicorn==0.52.4
